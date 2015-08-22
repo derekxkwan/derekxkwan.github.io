@@ -6,7 +6,8 @@ socketMusic:wireless (2015)<br>
 <br>
 socketMusic is a way to deploy and trigger audio on internet-enabled devices without the use of wires or any sort of special technology (except for a router). Think of it as a multichannel speaker array, except other people's cell phones are your speakers. Its inspiration comes from laptop orchestra<br>
 <br>
-It uses <b>node.js</b> to host a webpage, its modules <b>express</b> and <b>socket.io</b> to target individual devices, the node-osc module to trigger functions in my node app via osc, and DNS server software such as <b>dnsmasq</b> to allow clients to connect to my node app without having to type in my ip (note that this requires configuring the hosting computer to use a static ip). Finally, I use audio programming synthesis environments such as <b>Pure Data</b> or <b>SuperCollider</b> to send OSC triggers to my node app and also generate sound to be played over larger main speakers.
+It uses <b>node.js</b> to host a webpage, its modules <b>express</b> and <b>socket.io</b> to target individual devices, the node-osc module to trigger functions in my node app via osc, and DNS server software such as <b>dnsmasq</b> to allow clients to connect to my node app without having to type in my ip (note that this requires configuring the hosting computer to use a static ip). Finally, I use audio programming synthesis environments such as <b>Pure Data</b> or <b>SuperCollider</b> to send OSC triggers to my node app and also generate sound to be played over larger main speakers.  You can find an overview of the setup <a href="socketMusicDiagram.pdf">here</a>.
+
 
 <h1>File Manifest</h1>
 My node application for my piece socketMusic:wireless contains the following files:<br>
