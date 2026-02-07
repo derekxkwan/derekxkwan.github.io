@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>derek kwan | computers/music/art</title>
+        <title>derek kwan | putchar </title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="/css/nav.css" />
@@ -52,14 +52,10 @@
 </nav> 
 <hr>
 	<img src="/images/noiseGendblue.png" style="display:none;" />
-    <h1> computers/music/art </h1>
+    <h1> putchar  </h1>
     
-<img src="/images/treesilh_lores.jpg"></img>
-<br>
-(image: shader trickery with tree (silhouettes) using p5js from 2019)
-<br>
-<br>
-(website built using <a href="https://www.getzola.org/">zola</a>)
+<p>Applying a technique I learned from countercomplex's <a href="http://countercomplex.blogspot.com/2011/10/algorithmic-symphonies-from-one-line-of.html">blog post</a>, this series of algorithmic compositions pipes the output of compiled C code to the soundcard via the aplay command. The actual C code consists of the declaration of the main function passed a variable automatically typecasted to an integer. In the body, you iterate over the variable in a for loop and use putchar to write a statement involving the variable to stdout. The code looks something like this: <code>main(t){ for(t=0;;t++){putchar(t * ((t&gt;&gt;10)&amp;54));};}</code></p>
+
 
    </body>
 </html>
